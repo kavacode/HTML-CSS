@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding-top: 27px;
+ }
+ .navigation {
+    max-width: 1032px;
+    margin: auto;
+ }
+ ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+ }
+ li {
+    margin-left: 33px;
+     transition: 0.4s;
+ }
+ li:first-child {
+    margin-left: 0px;
+ }
+ li:hover{
+     transform: rotate(360deg);
+ }
+ a {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    text-decoration: none;
+    color: #000000;
+ }
+ .content {
+     max-width: 858px;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 158px;
+     padding-bottom: 88px;
+ }
+ h1 {
+     margin-bottom: 40px;
+     margin-right: 106px;
+     max-width: 506px;
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 44px;
+     line-height: 60px;
+     color: #21243D;
+ }
+ .text {
+     margin-bottom: 38px;
+     margin-right: 115px;
+     max-width: 497px;
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #21243D;
+ }
+ .download {
+     padding: 9px 21px 17px 20px;
+     background: #FF6464;
+     border-radius: 2px;
+     font-family: 'Heebo';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 29px;
+     color: #FFFFFF;
+     text-decoration: none;
+ }
+ .section_for_form {
+     background: black;
+ }
+ .form_section {
+     max-width: 564px;
+     margin: auto;
+     padding-top: 69px;
+     padding-bottom: 37px;
+ }
+label {
+    display: none;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 0px;
+    border: none;
+    padding: 18px 0px 17px 31px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
+}
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 127px;
+    resize: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    border: none;
+    padding: 17px 0px 0px 31px;
+}
+button {
+    background-color: transparent;
+    border: solid #7EC4BD 2px;
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    padding: 15.05px 60px 15.95px 60px;
+    text-align: center;
+    color: #8BCAC3;
+}
+.button {
+    text-align: center;
+    margin-top: 21.95px;
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
